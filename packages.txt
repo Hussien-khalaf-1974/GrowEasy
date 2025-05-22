@@ -9,3 +9,11 @@ packages.txt
 System-level dependencies for Streamlit Cloud (installed via apt-get)
 
 build-essential # Required for compiling C extensions (e.g., scikit-learn, spacy) libatlas-base-dev # Required for numerical libraries (e.g., scikit-learn) python3-dev # Python development headers for building extensions
+
+
+
+packages.txt
+
+System-level dependencies for Streamlit Cloud (installed via apt-get)
+
+build-essential # Required for compiling C extensions (e.g., scikit-learn) libatlas-base-dev # Required for numerical libraries (e.g., scikit-learn) python3-dev # Python development headers for building extensions
