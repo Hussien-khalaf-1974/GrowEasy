@@ -1,0 +1,32 @@
+# requirements.txt
+# Version: 1.2
+# This file lists dependencies for the GrowEasy E-Commerce Analytics Platform.
+# Install dependencies with: pip install -r requirements.txt
+
+# Core libraries for data processing and analysis
+numpy==1.26.4
+openpyxl==3.1.5          # Required for Excel file reading/writing
+pandas==2.2.2
+pyarrow==16.1.0          # Efficient columnar data processing
+scipy==1.13.1
+scikit-learn==1.4.2      # Machine learning for session analysis
+statsmodels==0.14.2      # Statistical modeling
+
+# Visualization libraries
+matplotlib==3.8.4        # Static plotting
+plotly==5.22.0           # Interactive charts for dashboards
+seaborn==0.13.2          # Statistical visualizations
+
+# NLP libraries (for future Query Analysis)
+spacy==3.7.2             # Downgraded to avoid potential conflicts
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0-py3-none-any.whl
+smart-open==6.4.0        # Compatible with spaCy
+typer==0.7.0             # Downgraded to ensure compatibility with spaCy 3.7.2
+
+# App framework
+streamlit==1.38.0        # Web app framework
+
+# Miscellaneous utilities
+click==8.1.7             # Command-line tools
+reportlab==4.0.9         # PDF generation for reports
+rich==13.7.1             # Rich text formatting
