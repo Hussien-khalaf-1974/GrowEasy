@@ -1,0 +1,4 @@
+# runtime.txt
+# Specifies the Python version for Streamlit Cloud
+
+python-3.10
