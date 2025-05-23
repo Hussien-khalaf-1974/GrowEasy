@@ -1,4 +1,3 @@
-# System-level dependencies for Streamlit Cloud
 texlive
 texlive-fonts-extra
 latexmk
